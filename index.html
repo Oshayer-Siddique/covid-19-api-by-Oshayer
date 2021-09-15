@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Covid API</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.2/axios.min.js"
+      integrity="sha512-SRGf0XYPMWMGCYQg7sQsW2/FMWq0L/mYhwxDraoUOeZ9sWO2/+R48bcXZaWOpwjCQbyRWP24zsbtqQxJXU1W2w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script defer src="/covid 19 api by Oshayer/app.js"></script>
+  </head>
+  <body>
+
+    <!--<div class="select">
+      <input type="text" name="country" id="selectCountryText" />
+      <button type="submit" id="updateCountryInput">Gret All Cases</button>
+    </div>
+    <div class="select">
+      <select name="name" id="selectCountry" onchange="updateCountry()">
+        <option value="Bangladesh">Bangladesh</option>
+        <option selected value="India">India</option>
+        <option value="USA">USA</option>
+        <option value="Brazil">Brazil</option>
+      </select>-->
+
+    <div class="select">
+      <input type="text" id="selectCountryText">
+      <button type="submit" id="updateCountryInput">Get all data</button>
+    </div>
+
+    <div class="Data Container">
+      <p class="cases">Cases:</p>
+      <p class="deaths">Deaths:</p>
+      <p class="critical">Criticals:</p>
+      <p class="recovered">Recovered:</p>
+      
+    </div>
+
+  </body>
+</html>
